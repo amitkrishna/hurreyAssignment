@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+*{
+// position: relative;
+// width: 1920px;
+// height: 1080px;
+
+// background: #141923;
+// /* Slide 16:9 - 37 */
+
+// // ;position: relative;
+// // width: 1920px;
+// // height: 1080px;
+
+// // background: #141923
+
+
+// /* Vector */
+
+// position: absolute;
+// left: 9.74%;
+// right: -94.11%;
+// top: -17.59%;
+// bottom: 11.3%;
+
+// background: linear-gradient(90deg, #0096F5 -0.35%, #8B0CA0 58.03%, #FF0000 99.87%);
+// filter: blur(10px);
+
+
+/* Rectangle 27 */
+
+// box-sizing: border-box;
+
+// position: absolute;
+// left: 47.79%;
+// right: 47.79%;
+// top: 48.3%;
+// bottom: 48.3%;
+
+background:#141923;
+// opacity: 9;
+// border-radius: 5.25px;
+
+
+/* Logo-01 (1) 1 */
+
+// position: absolute;
+// left: 48.77%;
+// right: 48.77%;
+// top: 49.22%;
+// bottom: 49.22%;
+
+background-image: url("https://hurrey-descriptive-ai-demo.web.app/background.12a59d8f01347080.svg");
+// opacity: 9;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

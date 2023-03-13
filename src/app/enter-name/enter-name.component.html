@@ -1,0 +1,21 @@
+<a (click)="backClicked()">
+<div class="back-button">
+    <i class="bi bi-arrow-left" style="color:white"></i>
+</div>
+</a>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit">
+<div class="container">
+    <div class="form-group">
+    <h1 style="color:white" class="form-control">What is your name?</h1>
+    <input type="text" #name class="form-control" ngClass="inputText" 
+    id="name"  formControlName="name">
+    <div class="form-control">
+        <button type="button" class="submitBtn" style="margin-left:50px" [disabled]="f['name'].touched && f['name'].invalid"
+        (click)="onSubmit($event)">
+            <span class="buttonText">Next</span>
+        </button>
+    </div>
+    </div>
+</div>
+</form>

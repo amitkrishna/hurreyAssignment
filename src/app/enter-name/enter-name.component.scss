@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    opacity: 100%;
+    padding: 10px;
+}
+:host {
+    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.submitBtn{
+position: auto;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+height: 50px;
+width: 200px;
+border-radius: 16px;
+padding: 10px 20px 10px 10px;
+text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px 2px 2px;
+  cursor: pointer;
+}
+.buttonText{
+    position: auto;
+left: -1.94%;
+right: -1.94%;
+top: 23.64%;
+bottom: 23.64%;
+
+font-family: 'Neue Haas Grotesk Display Pro';
+font-style: normal;
+font-weight: 450;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+text-align: center;
+display: inline-block;
+
+color: #FFFFFF;
+}
+
+.inputText{
+
+    position: auto;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 12px; 
+}
+.back-button {
+  width: 53px;/* modified by label length */
+	overflow: auto;
+    height: 100px;
+}

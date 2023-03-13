@@ -1,0 +1,25 @@
+<a (click)="backClicked()">
+    <div class="back-button">
+        <i class="bi bi-arrow-left" style="color:white"></i>
+    </div>
+</a>
+<form [formGroup]="contactFormIcon">
+    <div class="container">
+        <div class="form-group">
+            <h1 style="color:white" class="form-control">Hello {{ this.getUserName() }}</h1>
+            <h3 style="color:white" class="form-control"> Choose your avatar</h3>
+            <!-- <img src="{{ this.iconMapper.get(1)}}"/>    -->
+            <div *ngFor="let icon of [0,1,2,3,4]" style="margin: 0;padding: 0;text-align: center;">
+                 <img src="{{ this.iconMapper.get(icon)}}" style="display: inline-block;"/>   
+            </div>
+            <!-- <input type="text" #name class="form-control" ngClass="inputText" 
+            id="name"  formControlName="name">
+            <div class="form-control">
+                <button type="button" class="submitBtn" style="margin-left:50px" [disabled]="f['name'].touched && f['name'].invalid">
+                    <span class="buttonText">Next</span>
+                </button>
+            </div> -->
+        </div>
+    </div>
+</form>    
+    
